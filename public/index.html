@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Upload</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cloud Upload</h1>
+
+<div>
+    <input type="text" id="code" placeholder="Code eingeben">
+</div>
+
+<div>
+    <input type="file" id="file">
+    <button onclick="uploadFile()">Upload</button>
+</div>
+
+<div>
+    <button onclick="getFiles()">Gespeicherte Dateien anzeigen</button>
+</div>
+
+<ul id="fileList"></ul>
+
+<script src="app.js"></script>
+</body>
+</html>
